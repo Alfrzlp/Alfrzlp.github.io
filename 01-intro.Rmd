@@ -24,6 +24,9 @@ knitr::kable(
   <b>شستيلاسشيلاسشتيلاشسيشىسمنىمشسىيمنىسشينمىمشنسى</b>
 </p>
 
+<p class='arabic' lang='ar'> 
+إذا <b class='arb_slct'>م&zwj;</b>ا ط<b class='arb_slct'>م&zwj;</b>حت إلى <b class='arb_slct'>شغ&zwj;</b>اية
+</p>
 
 
 yeah
