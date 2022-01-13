@@ -1,6 +1,8 @@
 bookdown::gitbook:
   css: style.css
   config:
+    fontsettings:
+      theme: night
     toc:
       before: |
         <li><a href="./">A Minimal Book Example</a></li>
