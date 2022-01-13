@@ -1,0 +1,12 @@
+fig:nice-fig
+tab:nice-tab
+prerequisites
+intro
+شستيلاسشيلاسشتيلاشسيشىسمنىمشسىيمنىسشينمىمشنسى
+literature
+methods
+math-example
+applications
+example-one
+example-two
+final-words
