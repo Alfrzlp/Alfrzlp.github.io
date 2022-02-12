@@ -1,0 +1,26 @@
+{
+    "id": "66906439",
+    "path": "~/MainR/bookdown-demo/_bookdown.yml",
+    "project_path": "_bookdown.yml",
+    "type": "yaml",
+    "hash": "3615056994",
+    "contents": "",
+    "dirty": false,
+    "created": 1642081680418.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "5,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1642057881,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1642057881,
+    "read_only": false,
+    "read_only_alternatives": []
+}
