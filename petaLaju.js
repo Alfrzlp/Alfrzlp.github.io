@@ -95,7 +95,7 @@ function fetchJSON(url) {
 };
 
 
-fetchJSON('http://localhost:8000/LajuAlihFungsi/assets/bb_LajuAlihFungsi.geojson')
+fetchJSON('assets/bb_LajuAlihFungsi.geojson')
 .then(function(data) { 
     bb_geojson.addData(data);
 });
