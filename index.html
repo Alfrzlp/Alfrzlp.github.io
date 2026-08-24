@@ -1,36 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Belajar Leaflet</title>
-
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
-    integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
-    crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
-    integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
-    crossorigin=""></script>
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
-    <script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
-    <style>
-        html, body {
-            height: 100%;
-        }
-    </style >
-
+    <meta name="description" content="Portofolio dan CV Ridson Al Farizal, statistical programmer dan data science enthusiast.">
+    <meta name="theme-color" content="#f4f1ea">
+    <title>Ridson Al Farizal | Statistical Programmer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="petaLaju.css">
 </head>
-
 <body>
-    Ini peta tematik
-    <div id="mapid" style="background-color: rgb(255, 255, 255); height: 70%; width: 100%;">
-    </div>
+    <header class="site-header">
+        <a class="brand" href="#top" aria-label="Kembali ke atas">R<span>AF.</span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+        <nav id="site-nav" class="site-nav" aria-label="Navigasi utama">
+            <a href="#about">Tentang</a>
+            <a href="#work">Karya</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </header>
 
-    <script src="petaLaju.js"></script>
+    <main id="top">
+        <section class="hero section-wrap">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="status-dot"></span> Terbuka untuk peluang kolaborasi</p>
+                <h1>Data yang rapi.<br><em>Insight</em> yang berarti.</h1>
+                <p class="hero-intro">Saya Ridson Al Farizal, seorang statistical programmer yang membangun solusi data, model Bayesian, dan perangkat analisis yang dapat dipercaya.</p>
+                <div class="hero-actions">
+                    <a class="button button-dark" href="#work">Lihat karya <span aria-hidden="true">&#8599;</span></a>
+                    <a class="text-link" href="https://github.com/Alfrzlp" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">&#8599;</span></a>
+                </div>
+            </div>
+            <div class="hero-stamp" aria-label="Ridson Al Farizal, statistical programmer">
+                <div class="stamp-ring"><span>RIDSON AL FARIZAL</span><span>STATISTICAL PROGRAMMER</span></div>
+                <div class="stamp-initials">RAF</div>
+            </div>
+            <div class="hero-meta"><span>01 / 03</span><span>Based in Indonesia</span></div>
+        </section>
+
+        <section id="about" class="about section-wrap section-line">
+            <p class="section-label">01 — Tentang saya</p>
+            <div class="about-content">
+                <h2>Mengubah kompleksitas statistik menjadi alat yang <span>bisa dipakai.</span></h2>
+                <div class="about-detail">
+                    <p>Saya tertarik pada pertemuan antara statistik, software engineering, dan komunikasi data. Fokus saya adalah membuat metode analisis yang cepat, transparan, dan membantu orang mengambil keputusan dengan lebih baik.</p>
+                    <div class="skill-list"><span>R &amp; Rcpp</span><span>Bayesian modeling</span><span>Data visualization</span><span>Geospatial analysis</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="work section-wrap section-line">
+            <div class="section-heading"><p class="section-label">02 — Karya pilihan</p><p class="mono">SELECTED PROJECTS</p></div>
+            <article class="project project-featured">
+                <div class="project-number">01</div>
+                <div class="project-main"><p class="project-type">R package · Statistical computing</p><h3>fastsaehb</h3><p>Implementasi Hierarchical Bayes untuk Small Area Estimation dengan backend C++ yang cepat dan diagnostik model yang lengkap.</p><a class="project-link" href="https://github.com/Alfrzlp" target="_blank" rel="noreferrer">Pelajari proyek <span aria-hidden="true">&#8599;</span></a></div>
+                <div class="project-aside"><strong>20–100×</strong><span>lebih cepat dari implementasi tradisional</span></div>
+            </article>
+            <article class="project">
+                <div class="project-number">02</div>
+                <div class="project-main"><p class="project-type">Interactive map · Leaflet</p><h3>Peta Laju Alih Fungsi</h3><p>Visualisasi geospasial interaktif untuk membaca pola laju alih fungsi lahan di tingkat kecamatan.</p><a class="project-link" href="https://github.com/Alfrzlp" target="_blank" rel="noreferrer">Lihat di GitHub <span aria-hidden="true">&#8599;</span></a></div>
+                <div class="project-aside project-tags"><span>GeoJSON</span><span>JavaScript</span><span>Leaflet</span></div>
+            </article>
+        </section>
+
+        <section class="toolkit section-wrap section-line"><p class="section-label">03 — Toolkit</p><div class="toolkit-grid"><span>R</span><span>C++</span><span>Rcpp</span><span>RcppArmadillo</span><span>Git</span><span>Leaflet</span></div></section>
+
+        <section id="contact" class="contact section-wrap section-line"><p class="section-label">Mari terhubung</p><div class="contact-content"><h2>Punya pertanyaan<br>atau ide menarik?</h2><a class="contact-email" href="https://github.com/Alfrzlp" target="_blank" rel="noreferrer">github.com/Alfrzlp <span aria-hidden="true">&#8599;</span></a></div></section>
+    </main>
+
+    <footer class="site-footer section-wrap"><span>© <span id="year"></span> Ridson Al Farizal</span><span>Built with curiosity &amp; code</span></footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+        const toggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('.site-nav');
+        toggle.addEventListener('click', () => {
+            const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+            toggle.setAttribute('aria-expanded', String(!isOpen));
+            nav.classList.toggle('is-open', !isOpen);
+        });
+        nav.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => {
+            toggle.setAttribute('aria-expanded', 'false');
+            nav.classList.remove('is-open');
+        }));
+    </script>
 </body>
 </html>
