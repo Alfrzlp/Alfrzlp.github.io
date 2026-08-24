@@ -1,78 +1,103 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portofolio dan CV Ridson Al Farizal, statistical programmer dan data science enthusiast.">
+    <meta name="description" content="CV and portfolio of Ridson Al Farizal P, researcher and statistical programmer.">
     <meta name="theme-color" content="#f4f1ea">
-    <title>Ridson Al Farizal | Statistical Programmer</title>
+    <title>Ridson Al Farizal P | Statistical Programmer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="petaLaju.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="site-header">
-        <a class="brand" href="#top" aria-label="Kembali ke atas">R<span>AF.</span></a>
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+        <a class="brand" href="#top" aria-label="Back to top">R<span>AF.</span></a>
+        <div class="header-tools">
+            <button class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false"><span class="theme-icon" aria-hidden="true">☾</span><span class="theme-label">Dark</span></button>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+        </div>
         <nav id="site-nav" class="site-nav" aria-label="Navigasi utama">
-            <a href="#about">Tentang</a>
-            <a href="#work">Karya</a>
-            <a href="#contact">Kontak</a>
+            <a href="#summary">Summary</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#publications">Publications</a>
+            <a href="#packages">R Packages</a>
+            <a href="#skills">Skills</a>
         </nav>
     </header>
 
     <main id="top">
-        <section class="hero section-wrap">
+        <section id="summary" class="hero section-wrap">
             <div class="hero-copy">
-                <p class="eyebrow"><span class="status-dot"></span> Terbuka untuk peluang kolaborasi</p>
-                <h1>Data yang rapi.<br><em>Insight</em> yang berarti.</h1>
-                <p class="hero-intro">Saya Ridson Al Farizal, seorang statistical programmer yang membangun solusi data, model Bayesian, dan perangkat analisis yang dapat dipercaya.</p>
+            <p class="eyebrow"><span class="status-dot"></span> Researcher · Statistical programmer</p>
+            <h1>Professional<br><em>Summary</em></h1>
+            <p class="hero-intro">A researcher with a strong focus on statistical computing in R, particularly in Small Area Estimation, machine learning, and remote sensing applications, with solid experience in data cleaning and advanced data visualization for analytical and policy-relevant insights.</p>
                 <div class="hero-actions">
-                    <a class="button button-dark" href="#work">Lihat karya <span aria-hidden="true">&#8599;</span></a>
+                    <a class="button button-dark" href="#publications">View publications <span aria-hidden="true">&#8599;</span></a>
                     <a class="text-link" href="https://github.com/Alfrzlp" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">&#8599;</span></a>
                 </div>
             </div>
-            <div class="hero-stamp" aria-label="Ridson Al Farizal, statistical programmer">
-                <div class="stamp-ring"><span>RIDSON AL FARIZAL</span><span>STATISTICAL PROGRAMMER</span></div>
-                <div class="stamp-initials">RAF</div>
+            <div class="hero-stamp" aria-label="Ridson Al Farizal P, statistical programmer">
+                <img class="profile-photo" src="assets/foto.png" alt="Portrait of Ridson Al Farizal P">
             </div>
-            <div class="hero-meta"><span>01 / 03</span><span>Based in Indonesia</span></div>
+            <div class="hero-meta"><span>CV / 2026</span><span>Based in Indonesia</span></div>
         </section>
 
-        <section id="about" class="about section-wrap section-line">
-            <p class="section-label">01 — Tentang saya</p>
-            <div class="about-content">
-                <h2>Mengubah kompleksitas statistik menjadi alat yang <span>bisa dipakai.</span></h2>
-                <div class="about-detail">
-                    <p>Saya tertarik pada pertemuan antara statistik, software engineering, dan komunikasi data. Fokus saya adalah membuat metode analisis yang cepat, transparan, dan membantu orang mengambil keputusan dengan lebih baik.</p>
-                    <div class="skill-list"><span>R &amp; Rcpp</span><span>Bayesian modeling</span><span>Data visualization</span><span>Geospatial analysis</span></div>
-                </div>
+        <section id="education" class="education section-wrap section-line"><p class="section-label">02 — Education</p><div class="education-content"><div><p class="project-type">2019 — 2023</p><h2>Bachelor of Applied Statistics</h2><p>Politeknik Statistika STIS, Jakarta, Indonesia</p></div><p class="thesis"><strong>Thesis</strong><br>Application of Geospatial Big Data in Small Area Estimation to Estimate the Youth Open Unemployment Rate in Banten and West Java Provinces, 2021.</p></div></section>
+
+        <section id="experience" class="work section-wrap section-line">
+            <div class="section-heading"><p class="section-label">03 — Experience</p><p class="mono">EXPERIENCE</p></div>
+            <article class="project"><div class="project-number">01</div><div class="project-main"><p class="project-type">October 2023 — Present · BPS–Statistics of Selayar Islands Regency</p><h3>Staff</h3><p>Change Ambassador 2025 and 2026; Head of the Economic Census Task Force (GARDA SE2026).</p><div class="inline-links"><a class="project-link" href="https://drive.google.com/file/d/1XIWbtd6XOdETRgEhYqiUt_C1dGNJyTw3/view?usp=sharing" target="_blank" rel="noreferrer">Ambassador 2025 ↗</a><a class="project-link" href="https://drive.google.com/file/d/1BOH5EZJ6r5BmEnVImGd41QQiPKz7Pbv_/view?usp=sharing" target="_blank" rel="noreferrer">Ambassador 2026 ↗</a></div></div></article>
+            <article class="project"><div class="project-number">02</div><div class="project-main"><p class="project-type">June 2024 — August 2025 · Statistics Indonesia (BPS)</p><h3>Extreme Poverty Estimation Team</h3><p>Performed model-based estimation of extreme poverty indicators at the regency/municipality level using Small Area Estimation methods.</p><a class="project-link" href="https://drive.google.com/drive/folders/13biON7CtCCp0B-sehkK65_kzyjegsjOW?usp=sharing" target="_blank" rel="noreferrer">Project documentation ↗</a></div></article>
+            <article class="project"><div class="project-number">03</div><div class="project-main"><p class="project-type">July 2023 — September 2023 · National Food Agency, BPS, Politeknik Statistika STIS</p><h3>FSVA Indicator Estimation Team</h3><p>Performed sub-district-level estimation of Food Security and Vulnerability Atlas indicators using Small Area Estimation methodologies.</p><a class="project-link" href="https://badanpangan.go.id/blog/post/nfa-gunakan-metode-small-area-estimation-sae-untuk-pemetaan-sfva" target="_blank" rel="noreferrer">Read more ↗</a></div></article>
+            <article class="project"><div class="project-number">04</div><div class="project-main"><p class="project-type">February 2023 — June 2023 · Politeknik Statistika STIS</p><h3>Teaching Assistant — Survival Analysis</h3><p>Assisted undergraduate sixth-semester students in practical sessions for the Survival Analysis course.</p><a class="project-link" href="https://drive.google.com/file/d/174xdreTsG3CGyS3ICiu25sI1nZk1JYqK7/view?usp=sharing" target="_blank" rel="noreferrer">View reference ↗</a></div></article>
+        </section>
+
+        <section id="publications" class="work section-wrap section-line">
+            <div class="section-heading"><p class="section-label">04 — Publications</p><p class="mono">SELECTED RESEARCH</p></div>
+            <div class="research-list">
+                <a href="https://ejournal.brin.go.id/ijreses/article/view/13676" target="_blank" rel="noreferrer"><strong>Comparative Accuracies Using Machine Learning Models for Mapping Sugarcane Plantations Based on Sentinel-2A Imagery in Kediri, East Java</strong><span>International Journal of Remote Sensing and Earth Sciences, 2024 · 21(1)</span></a>
+                <a href="https://proceedings.stis.ac.id/icdsos/article/view/708" target="_blank" rel="noreferrer"><strong>Harnessing the Potential of the Blue Economy in Central Java: Mapping, Strategic Development, and Macroeconomic Analysis</strong><span>International Conference on Data Science and Official Statistics, 2025</span></a>
+                <a href="https://prosiding.stis.ac.id/index.php/semnasoffstat/article/view/2483" target="_blank" rel="noreferrer"><strong>Aspect-Based Sentiment Analysis on Google Maps Reviews: A Case Study on Post-Pandemic Tourism Recovery Strategy in West Papua Province</strong><span>Seminar Nasional Official Statistics, 2025 · pp. 297–308</span></a>
+                <a href="https://journal.ipb.ac.id/index.php/JIPI/article/view/49154" target="_blank" rel="noreferrer"><strong>Model-Based Approach for Clustering Regencies/Cities in the Land of Papua Based on Food Security Indicators</strong><span>Jurnal Ilmu Pertanian Indonesia, 2025 · 30(1), 19–30</span></a>
+                <a href="https://prosiding.stis.ac.id/index.php/semnasoffstat/article/view/2285" target="_blank" rel="noreferrer"><strong>Implementation of Hierarchical Bayes Beta-Difference Benchmarking Small Area Estimation for Estimating NEET among Higher Education Graduates</strong><span>Seminar Nasional Official Statistics, 2024 · pp. 1129–1140</span></a>
             </div>
         </section>
 
-        <section id="work" class="work section-wrap section-line">
-            <div class="section-heading"><p class="section-label">02 — Karya pilihan</p><p class="mono">SELECTED PROJECTS</p></div>
-            <article class="project project-featured">
-                <div class="project-number">01</div>
-                <div class="project-main"><p class="project-type">R package · Statistical computing</p><h3>fastsaehb</h3><p>Implementasi Hierarchical Bayes untuk Small Area Estimation dengan backend C++ yang cepat dan diagnostik model yang lengkap.</p><a class="project-link" href="https://github.com/Alfrzlp" target="_blank" rel="noreferrer">Pelajari proyek <span aria-hidden="true">&#8599;</span></a></div>
-                <div class="project-aside"><strong>20–100×</strong><span>lebih cepat dari implementasi tradisional</span></div>
-            </article>
-            <article class="project">
-                <div class="project-number">02</div>
-                <div class="project-main"><p class="project-type">Interactive map · Leaflet</p><h3>Peta Laju Alih Fungsi</h3><p>Visualisasi geospasial interaktif untuk membaca pola laju alih fungsi lahan di tingkat kecamatan.</p><a class="project-link" href="https://github.com/Alfrzlp" target="_blank" rel="noreferrer">Lihat di GitHub <span aria-hidden="true">&#8599;</span></a></div>
-                <div class="project-aside project-tags"><span>GeoJSON</span><span>JavaScript</span><span>Leaflet</span></div>
-            </article>
-        </section>
+        <section id="packages" class="packages section-wrap section-line"><div class="section-heading"><p class="section-label">05 — R packages</p><p class="mono">OPEN-SOURCE CONTRIBUTIONS</p></div><div class="package-list">
+            <a href="https://cran.r-project.org/web/packages/saeHB/index.html" target="_blank" rel="noreferrer"><strong>saeHB</strong><span>Perwira, Z. Y., Ubaidillah, A., Pulungan, R. A. F., &amp; Wulansari, I. Y.</span><em>Small Area Estimation using Hierarchical Bayesian Method.</em></a>
+            <a href="https://cran.r-project.org/web/packages/sae.projection/index.html" target="_blank" rel="noreferrer"><strong>sae.projection</strong><span>Pulungan, R. A. F., Ubaidillah, A., Larasati, S. A., &amp; Rahayu, A.</span><em>Small Area Estimation using Model-Assisted Projection Method.</em></a>
+            <a href="https://cran.r-project.org/web/packages/saens/index.html" target="_blank" rel="noreferrer"><strong>saens</strong><span>Pulungan, R. A. F. &amp; Ubaidillah, A.</span><em>Small Area Estimation with Cluster Information for Estimation of Non-Sampled Areas.</em></a>
+            <a href="https://cran.r-project.org/web/packages/saeHB.unit/index.html" target="_blank" rel="noreferrer"><strong>saeHB.unit</strong><span>Pulungan, R. A. F. &amp; Ubaidillah, A.</span><em>Basic Unit-Level Model Using Hierarchical Bayesian Approach.</em></a>
+            <a href="https://github.com/Alfrzlp/cartr" target="_blank" rel="noreferrer"><strong>cartlm</strong><span>Pulungan, R. A. F.</span><em>Classification and Regression Tree with Linear Model.</em></a>
+        </div></section>
 
-        <section class="toolkit section-wrap section-line"><p class="section-label">03 — Toolkit</p><div class="toolkit-grid"><span>R</span><span>C++</span><span>Rcpp</span><span>RcppArmadillo</span><span>Git</span><span>Leaflet</span></div></section>
+        <section id="skills" class="toolkit section-wrap section-line"><p class="section-label">06 — Skills</p><div class="toolkit-grid"><span>R</span><span>C++</span><span>Python</span><span>Data cleaning</span><span>Data visualization</span><span>Data modeling</span></div></section>
 
-        <section id="contact" class="contact section-wrap section-line"><p class="section-label">Mari terhubung</p><div class="contact-content"><h2>Punya pertanyaan<br>atau ide menarik?</h2><a class="contact-email" href="https://github.com/Alfrzlp" target="_blank" rel="noreferrer">github.com/Alfrzlp <span aria-hidden="true">&#8599;</span></a></div></section>
+        <section id="contact" class="contact section-wrap section-line"><p class="section-label">Let’s connect</p><div class="contact-content"><h2>Research with<br>real-world impact.</h2><a class="contact-email" href="https://github.com/Alfrzlp" target="_blank" rel="noreferrer">github.com/Alfrzlp <span aria-hidden="true">&#8599;</span></a></div></section>
     </main>
 
-    <footer class="site-footer section-wrap"><span>© <span id="year"></span> Ridson Al Farizal</span><span>Built with curiosity &amp; code</span></footer>
+    <footer class="site-footer section-wrap"><span>© <span id="year"></span> Ridson Al Farizal P</span><span>Built with curiosity &amp; code</span></footer>
     <script>
         document.getElementById('year').textContent = new Date().getFullYear();
+        const themeToggle = document.querySelector('.theme-toggle');
+        const storedTheme = localStorage.getItem('theme');
+        if (storedTheme === 'dark') document.body.classList.add('dark-theme');
+        const updateThemeButton = () => {
+            const isDark = document.body.classList.contains('dark-theme');
+            themeToggle.setAttribute('aria-pressed', String(isDark));
+            themeToggle.setAttribute('aria-label', isDark ? 'Switch to light theme' : 'Switch to dark theme');
+            themeToggle.querySelector('.theme-icon').textContent = isDark ? '☀' : '☾';
+            themeToggle.querySelector('.theme-label').textContent = isDark ? 'Light' : 'Dark';
+        };
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-theme');
+            localStorage.setItem('theme', document.body.classList.contains('dark-theme') ? 'dark' : 'light');
+            updateThemeButton();
+        });
+        updateThemeButton();
         const toggle = document.querySelector('.menu-toggle');
         const nav = document.querySelector('.site-nav');
         toggle.addEventListener('click', () => {
